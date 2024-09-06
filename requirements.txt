@@ -1,5 +1,4 @@
 
 keyboard
 mouse
-tkinter
 pyinstaller
