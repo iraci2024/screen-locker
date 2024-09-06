@@ -1,4 +1,8 @@
 
-keyboard
-mouse
-pyinstaller
+socket
+threading
+pyautogui
+pickle
+zlib
+tkinter
+Pillow

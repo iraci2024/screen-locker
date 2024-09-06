@@ -4,8 +4,12 @@
 # Instalar dependências
 pip install -r requirements.txt
 
-# Gerar o executável
-pyinstaller --onefile screen_locker.py
+# Gerar o executável do servidor
+pyinstaller --onefile server.py
 
-# Mover o executável para a pasta dist
-mv dist/screen_locker ./screen_locker.exe
+# Gerar o executável do cliente
+pyinstaller --onefile client.py
+
+# Mover os executáveis para a pasta dist
+mv dist/server ./server.exe
+mv dist/client ./client.exe
