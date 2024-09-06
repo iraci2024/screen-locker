@@ -40,6 +40,8 @@ class ScreenLocker:
         while self.blocking:
             keyboard.block_key('all')
             mouse.move(0, 0)
+            mouse.click('left')
+            mouse.click('right')
 
     def unblock_input(self):
         self.blocking = False
