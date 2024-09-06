@@ -1,0 +1,5 @@
+
+keyboard
+mouse
+tkinter
+pyinstaller
